@@ -3747,18 +3747,18 @@ jupyter = ["ipykernel (>=5.1.2) ; python_version >= \"3.4\"", "ipython (>=5.8.0)
 
 [[package]]
 name = "pydicom"
-version = "2.3.1"
+version = "2.4.5"
 description = "A pure Python package for reading and writing DICOM data"
 optional = false
-python-versions = ">=3.6.1"
+python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "pydicom-2.3.1-py3-none-any.whl", hash = "sha256:b00bacdabc1f8a18b61a08bb6cd0f41c419446531638c895a708c22a35d69cfe"},
-    {file = "pydicom-2.3.1.tar.gz", hash = "sha256:655db29c21cb333a4f9dfffdeaa80995b1d3b89e98b66a16f5cc886e5b338028"},
+    {file = "pydicom-2.4.5-py3-none-any.whl", hash = "sha256:35a594cc8ebae8dd40b1f632cd7c9f08ecaa147cb9305a9f9fbca2c03f5ccc93"},
+    {file = "pydicom-2.4.5.tar.gz", hash = "sha256:ba2077bd76cb49e05fe51c3e1e0b2d77218f50c6c231120b443d29b38ea6b7a8"},
 ]
 
 [package.extras]
-docs = ["matplotlib", "numpy", "numpydoc", "pillow", "sphinx", "sphinx-copybutton", "sphinx-gallery", "sphinx-rtd-theme", "sphinxcontrib-napoleon"]
+docs = ["matplotlib", "numpy", "numpydoc", "pillow", "sphinx", "sphinx-copybutton", "sphinx-gallery", "sphinx_rtd_theme", "sphinxcontrib-napoleon"]
 
 [[package]]
 name = "pydot"
@@ -5463,4 +5463,4 @@ test = ["zope.testing"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9.8"
-content-hash = "62a3367c590c669d36a36e77d3a4e817cc08d04f84cd84b04b4ab5079aa57ed6"
+content-hash = "e8e96cbe1624e0e0373dcfb3c4c48f1b16b2b53cc8991e16ec1abd84b504b098"
